@@ -1,5 +1,5 @@
 const mSocket = io(`https://polar-oasis-87239.herokuapp.com/passengers`);
-mapboxgl.accessToken = 'pk.eyJ1IjoiYWJ1YmFrZXJobyIsImEiOiJjazUzd2hhYncwODdjM25wYmE0cGE0Y201In0.P13PP4e4NiURvuzdTX-UzQ';
+mapboxgl.accessToken = 'pk.eyJ1IjoiYWJ1YmFrZXJobyIsImEiOiJjazZieG0yNnYxMzQ1M2pxanQ5YmdlMjhpIn0.d18HwvUjMTv8VavVlN6Fnw';
 const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/abubakerho/ck53uwhjo080m1clab9c0u6l7',
